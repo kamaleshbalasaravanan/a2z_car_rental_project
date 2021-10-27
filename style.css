@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: EF5DA8;
+}
+nav{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    color: green;
+    font-weight: 500px;
+}
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-links li{
+    list-style: none;
+    padding: 10px;
+    margin: 0 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links li :hover{
+    /* background-color: #555; */
+    opacity: 0.7;
+}
+
+.nav-search {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+}
+.nav-search input{
+    height: 100%;
+    width: 160px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: black;
+    margin-left: 5px;
+    /* font: 16px; */
+    /* text-align: center; */
+}
+.nav-search .search-icon{
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: green;
+    cursor: pointer;
+    /* padding: px; */
+    margin-top: 5px;
+}
+.nav-search .search-icon:hover{
+    /* background: #e6e6e6; */
+    background: green;
+}
+
+/* login-css */
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+.login-box form{
+    width: 500px;
+    background: #fff;
+    padding: 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.login-box h2{
+    text-align: center;
+    margin: 20px;
+    color: green;
+}
+.login-box label{
+    /* color: #888; */
+    color: green;
+    font-size: 18px ;
+    padding: 10px;
+}
+.login-box input{
+    display: block;
+    border: 2px solid green;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.login-box .button button{
+    float: left;
+    background: #ccc;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: green;
+}
+.login-box .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+}
+.login-box button:hover{
+    opacity: .7;
+    /* background: rgb(16, 226, 16); */
+}
+.login-box a{
+    text-decoration: none;
+    margin: 15px;
+    color: #000;
+}
+.login-box .gol-acc button{
+    width: 90%;
+    /* float: left; */
+    background: green;
+    padding: 10px 15px;
+    /* margin: 10px 15px; */
+    margin: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* contact-page */
+.contact-form{
+    width: 90%;
+    height: 90%;
+    border: 2px solid green;
+
+    margin: 10px 55px;
+    /* margin-top: 15px; */
+}
+.contact-form h2{
+    /* text-align: center; */
+    color: green;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+}
+.contact-form form{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contact form{
+    /* width: 100%; */
+    padding: 20px;
+    outline: none;
+
+}
+.contact input{
+    border: none;
+    border-bottom: 1px solid green;
+    padding: 10px;
+    color: green;
+}
+/* .contact .email input{
+    width: 90%;
+} */
+
+.contact textarea{
+    border: none;
+    border-bottom: 1px solid green;
+}
+button{
+    background: green;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.contact-text h2{
+    text-align: center;
+    margin: 10px;
+}
+.contact-text p{
+    text-align: center;
+    color: green;
+}
+.contact-img{
+    
+}
+
+/* booking_div */
+.booking_div{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 500px;
+    border: 1px solid green;
+    margin: 70px auto;
+    background: green;
+}
+.booking_div div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.booking_div form{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    width:400px;
+    border: 1px solid green;
+    padding: 20px;
+    margin: 20px auto;
+    background: #fff;
+}
+.booking_div label{
+    width: 100px;
+    color: green;
+}
+.booking_div input{
+    width: 200px;
+    height: 20px;
+    /* padding: auto; */
+    margin: 5px;
+    border: 1px solid green;
+    outline: none;
+}
+/* .booking_div .location-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} */
+/* .booking_div .time{
+
+} */
+/* .booking_div .date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.car-type input{
+    width: 90%;
+    height: 25px;
+}
+
+
+
+
+/* vechiles-css */
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width:100% ;
+    /* width: 700px; */
+}
+.col{
+    border: 1px solid green;
+    width: 90%;
+    margin: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid green;
+    width: 90%;
+    margin: 50px;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+}
+.part-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 360px; */
+    margin: 10px;
+}
+.icon-div div{
+    padding-top: 10px;
+}
+.circle-icon .fas fa-circle{
+    background: green;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+}
+
+/* vechiles-sidebar */
+.sidebar{
+    width: 300px;
+    border: 1px solid green;
+}
+.sidebar li{
+    width: 90%;
+    border: 1px solid green;
+    background: green;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+}
+.bck-btn button{
+    /* text-align: center; */
+    float: left;
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+.bck-btn a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+/* location-cards */
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.location-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    border: 20px solid green;
+    margin: 100px;
+}
+.location-cards img{
+    width: 100%;
+}
+.location-cards .location-heading{
+    padding: 20px;
+}
+.location-cards h2{
+    text-align: center;
+    color: green;
+    margin: 10px;
+}
+.location-cards ul{
+    text-align: center;
+    color: green;
+    list-style: none;
+
+}
